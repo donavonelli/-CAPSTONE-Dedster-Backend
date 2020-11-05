@@ -23,5 +23,8 @@ app.use("/profiles", routes.profile);
 // Services Routes
 app.use("/services", routes.services)
 
+// Posts Routes
+app.use("/posts", routes.posts)
+
 // connection
 app.listen(port, () => console.log(`Server is running on port ${port}`));
